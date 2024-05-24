@@ -1,0 +1,53 @@
+body {
+    padding: 30px;
+}
+
+.input-group {
+    width: 350px;
+    padding-top: 20px;
+}
+
+#list-tasks-section {
+    padding: 20px 0px 50px;
+}
+
+.task-card {
+    width: 500px;
+}
+
+.delete-btn {
+    width: 40px;
+}
+
+#tasks-data {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0px;
+}
+
+footer {
+    background-color: black;
+    padding: 30px 30px 30px;
+    color: white;
+    
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+    .input-group {
+        width: 300px;
+    }
+    .hero-section, .main-section {
+        text-align: center;
+    }
+    .main-section {
+        display: flex;
+        justify-content: center;
+    }
+    .task-card {
+        width: auto;
+    }
+    
+  }
