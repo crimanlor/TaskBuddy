@@ -21,7 +21,7 @@ Is a simple and intuitive task planner designed to help you manage your daily ta
 
 ### Demo
 
-[Click here to try live!]()
+[Click here to try live!](https://taskbuddy-js.netlify.app/)
 
 ## License
 
